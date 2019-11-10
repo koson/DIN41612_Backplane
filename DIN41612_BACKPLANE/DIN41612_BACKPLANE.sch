@@ -830,8 +830,6 @@ Wire Wire Line
 	13400 1500 13150 1500
 Wire Wire Line
 	13400 1300 13150 1300
-NoConn ~ 13400 2600
-NoConn ~ 13400 2700
 Text Label 14150 2400 2    50   ~ 0
 M
 Wire Wire Line
@@ -914,8 +912,6 @@ Wire Wire Line
 	14000 2900 13950 2900
 Wire Wire Line
 	14000 3400 13950 3400
-NoConn ~ 13900 2600
-NoConn ~ 13900 2700
 NoConn ~ 13900 3100
 NoConn ~ 13900 3200
 NoConn ~ 13400 1200
@@ -1069,12 +1065,8 @@ NoConn ~ 4300 5150
 NoConn ~ 4300 5250
 NoConn ~ 4300 5350
 NoConn ~ 4300 5450
-NoConn ~ 4300 5550
 NoConn ~ 4300 5650
-NoConn ~ 4300 5750
-NoConn ~ 4300 5850
 NoConn ~ 4300 5950
-NoConn ~ 4300 6050
 Wire Wire Line
 	5600 1350 5550 1350
 Wire Wire Line
@@ -1436,12 +1428,8 @@ NoConn ~ 5600 5150
 NoConn ~ 5600 5250
 NoConn ~ 5600 5350
 NoConn ~ 5600 5450
-NoConn ~ 5600 5550
 NoConn ~ 5600 5650
-NoConn ~ 5600 5750
-NoConn ~ 5600 5850
 NoConn ~ 5600 5950
-NoConn ~ 5600 6050
 $Comp
 L DIN41612_BACKPLANE:GND2 #PWR012
 U 1 1 60080387
@@ -1825,12 +1813,8 @@ NoConn ~ 6900 5150
 NoConn ~ 6900 5250
 NoConn ~ 6900 5350
 NoConn ~ 6900 5450
-NoConn ~ 6900 5550
 NoConn ~ 6900 5650
-NoConn ~ 6900 5750
-NoConn ~ 6900 5850
 NoConn ~ 6900 5950
-NoConn ~ 6900 6050
 $Comp
 L DIN41612_BACKPLANE:GND3 #PWR013
 U 1 1 601DD62C
@@ -2214,12 +2198,8 @@ NoConn ~ 8200 5150
 NoConn ~ 8200 5250
 NoConn ~ 8200 5350
 NoConn ~ 8200 5450
-NoConn ~ 8200 5550
 NoConn ~ 8200 5650
-NoConn ~ 8200 5750
-NoConn ~ 8200 5850
 NoConn ~ 8200 5950
-NoConn ~ 8200 6050
 $Comp
 L DIN41612_BACKPLANE:GND4 #PWR022
 U 1 1 6025DA6A
@@ -2603,9 +2583,7 @@ NoConn ~ 9500 5150
 NoConn ~ 9500 5250
 NoConn ~ 9500 5350
 NoConn ~ 9500 5450
-NoConn ~ 9500 5550
 NoConn ~ 9500 5650
-NoConn ~ 9500 5750
 NoConn ~ 9500 5850
 NoConn ~ 9500 5950
 NoConn ~ 9500 6050
@@ -2992,9 +2970,7 @@ NoConn ~ 10800 5150
 NoConn ~ 10800 5250
 NoConn ~ 10800 5350
 NoConn ~ 10800 5450
-NoConn ~ 10800 5550
 NoConn ~ 10800 5650
-NoConn ~ 10800 5750
 NoConn ~ 10800 5850
 NoConn ~ 10800 5950
 NoConn ~ 10800 6050
@@ -3145,8 +3121,6 @@ Wire Wire Line
 	13400 4350 13150 4350
 Wire Wire Line
 	13400 4150 13150 4150
-NoConn ~ 13400 5450
-NoConn ~ 13400 5550
 Text Label 14150 5250 2    50   ~ 0
 M
 Wire Wire Line
@@ -3229,8 +3203,6 @@ Wire Wire Line
 	14000 5750 13950 5750
 Wire Wire Line
 	14000 6250 13950 6250
-NoConn ~ 13900 5450
-NoConn ~ 13900 5550
 NoConn ~ 13900 5950
 NoConn ~ 13900 6050
 NoConn ~ 13400 4050
@@ -3500,4 +3472,92 @@ F 3 "~" H 2450 8900 50  0001 C CNN
 	1    2450 8900
 	1    0    0    -1  
 $EndComp
+Text Label 13050 5550 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	13400 5550 13050 5550
+Wire Wire Line
+	13400 5450 13050 5450
+Text Label 13050 5450 0    50   ~ 0
+TRG_SIG
+Text Label 14250 5550 2    50   ~ 0
+TRG_GND
+Wire Wire Line
+	13900 5550 14250 5550
+Wire Wire Line
+	13900 5450 14250 5450
+Text Label 14250 5450 2    50   ~ 0
+TRG_SIG
+Text Label 13050 2700 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	13400 2700 13050 2700
+Wire Wire Line
+	13400 2600 13050 2600
+Text Label 13050 2600 0    50   ~ 0
+TRG_SIG
+Text Label 14250 2700 2    50   ~ 0
+TRG_GND
+Wire Wire Line
+	13900 2700 14250 2700
+Wire Wire Line
+	13900 2600 14250 2600
+Text Label 14250 2600 2    50   ~ 0
+TRG_SIG
+Text Label 3950 5750 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	4300 5750 3950 5750
+Wire Wire Line
+	4300 5550 3950 5550
+Text Label 3950 5550 0    50   ~ 0
+TRG_SIG
+Text Label 5250 5750 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	5600 5750 5250 5750
+Wire Wire Line
+	5600 5550 5250 5550
+Text Label 5250 5550 0    50   ~ 0
+TRG_SIG
+Text Label 7850 5750 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	8200 5750 7850 5750
+Wire Wire Line
+	8200 5550 7850 5550
+Text Label 7850 5550 0    50   ~ 0
+TRG_SIG
+NoConn ~ 4300 5850
+NoConn ~ 4300 6050
+NoConn ~ 5600 5850
+NoConn ~ 5600 6050
+Text Label 6550 5750 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	6900 5750 6550 5750
+Wire Wire Line
+	6900 5550 6550 5550
+Text Label 6550 5550 0    50   ~ 0
+TRG_SIG
+NoConn ~ 6900 5850
+NoConn ~ 6900 6050
+NoConn ~ 8200 5850
+NoConn ~ 8200 6050
+Text Label 9150 5750 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	9500 5750 9150 5750
+Wire Wire Line
+	9500 5550 9150 5550
+Text Label 9150 5550 0    50   ~ 0
+TRG_SIG
+Text Label 10450 5750 0    50   ~ 0
+TRG_GND
+Wire Wire Line
+	10800 5750 10450 5750
+Wire Wire Line
+	10800 5550 10450 5550
+Text Label 10450 5550 0    50   ~ 0
+TRG_SIG
 $EndSCHEMATC
